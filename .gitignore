@@ -1,0 +1,25 @@
+# --- environments ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- artifacts produced by training / experiments ---
+train.log
+*.log
+data/
+checkpoints/
+runs/
+
+# --- large local-only files we don't want to publish ---
+Diff-IN.pdf
+*.pt
+*.pth
+*.ckpt
+
+# --- IDE / OS ---
+.DS_Store
+.idea/
+.vscode/
